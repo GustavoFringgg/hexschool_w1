@@ -133,6 +133,7 @@ table {
 *::before,
 *::after {
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 body {
@@ -190,6 +191,10 @@ a {
 
 .mt-80 {
   margin-top: 80px;
+}
+
+.pt-10 {
+  padding-top: 40;
 }
 .w-50 {
   width: 50%;

@@ -195,6 +195,9 @@ a {
 .pt-10 {
   padding-top: 40;
 }
+.pt-40 {
+  padding-top: 160px;
+}
 .w-50 {
   width: 50%;
 }
@@ -239,7 +242,9 @@ a {
 }
 
 .sociallist {
-  display: flex;
-  justify-content: center;
   padding: 64px 0;
+  text-align: center;
+  li {
+    display: inline-block;
+  }
 }
